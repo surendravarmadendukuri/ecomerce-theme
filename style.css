@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto:wght@700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Roboto';
+    
+}
+
+body{
+
+    background-color: rgb(175, 248, 248);
+    
+}
+
+header{
+    display: flex;
+    height: 10vh;
+}
+header h1{
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+header img{
+    height: 40px;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    margin-left: 55%;
+    margin-top: 1rem;
+   
+
+}
+header ul li{
+    margin-left: 5rem;
+  
+}
+.under:hover{
+    text-decoration: underline;
+    
+}
+main{
+    display: flex;
+    
+
+
+
+}
+main .icon{
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+main .icon figure img{
+    margin-left: -8rem;
+}
+main .icon figure figcaption{
+    font-size: 2.2rem;
+    
+}
+
+
+main .a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .a ul h1{
+    font-size: 3rem;
+}
+main .a ul li{
+    margin: 3rem;
+}
+main .a ul button{
+    height: 2rem;
+    width: 10rem;
+    border-radius: 1rem;
+    border: none;
+}
+footer{
+    display: flex;
+ 
+    justify-content: center;
+
+    align-items: center;
+    margin-top:-5rem;
+}
+footer figure{
+    margin: 10rem;
+}
+
+.speaker img{
+    height: 10rem;
+    margin-top: -3rem;
+}
+.console img{
+    height: 7rem;
+    
+}
+
+.speaker figcaption{
+    margin-top: -2rem;
+    margin-left: 1rem; 
+
+}
+.console figcaption{
+
+margin-top: -1.5rem;
+margin-left: 2rem; 
+}
